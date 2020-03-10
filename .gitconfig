@@ -1,0 +1,17 @@
+[user]
+	email = roland.molnar@dpc.hu
+	name = Roland Molnár
+[color]
+	branch = always
+	decorate = always
+	diff = always
+	grep = always
+	interactive = always
+	pager = true
+	showbranch = always
+	status = always
+	ui = always
+[pager]
+	branch = false
+[core]
+	editor = nvim

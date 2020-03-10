@@ -1,0 +1,5 @@
+*
+!.gitignore
+!.zshrc
+!.gitconfig
+!.local/share/fonts/
