@@ -1,6 +1,7 @@
 *
 !.gitignore
-!.zshrc
 !.gitconfig
+!.zshrc
+!.p10k.zsh
 !.local/share/fonts/
 !install.sh
