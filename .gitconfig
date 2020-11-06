@@ -11,7 +11,15 @@
 	showbranch = always
 	status = always
 	ui = always
+[alias]
+  meld = difftool --dir-diff
 [pager]
 	branch = false
 [core]
 	editor = nvim
+[diff]
+  tool = meld
+[difftool]
+  prompt = false
+[difftool "meld"]
+  cmd = meld "$LOCAL" "$REMOTE"
